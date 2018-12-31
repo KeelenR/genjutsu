@@ -9,15 +9,11 @@ import Details from './components/details/Details'
 import './index.css'
 
 const App = () => {
-    const title = "Cruxuh";
 
     return (
         <BrowserRouter>
         <div>
             <Header />
-            <h1>{title}</h1>  
-            <p>Welcome to my app</p>
-
             <Switch>
                 <Route path="/" component={List} exact/>
                 <Route path="/currency/:id" component={Details} exact/>
