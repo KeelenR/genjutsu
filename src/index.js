@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import './components/Polyfills/Polyfills'
 import Header from './components/common/Header';
 import List from './components/lists/List'
 import NotFound from './components/notFound/NotFound';
