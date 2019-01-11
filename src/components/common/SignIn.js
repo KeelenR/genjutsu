@@ -67,7 +67,8 @@ class SignIn extends React.Component {
                 autoLoad={true}
                 fields="name,email,picture"
                 onClick={this.componentClicked}
-                callback={this.responseFacebook} />
+                callback={this.responseFacebook} 
+                />
             );
         }
 
