@@ -3,6 +3,7 @@ import { handleResponse } from '../../helpers';
 import { API_URL } from '../../config';
 import Loading from '../common/Loading';
 import Table from './Table'
+import Cards from '../categories/Cards'
 import Pagination from './Pagination';
 
 class List extends React.Component {
@@ -76,7 +77,7 @@ class List extends React.Component {
 
         return (
             <div>
-                <Table 
+                <Cards 
                 currencies={currencies}
                 />
 
